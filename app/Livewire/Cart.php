@@ -57,7 +57,7 @@ class Cart extends Component
     public function removeItem($id)
     {
         CartItem::findOrFail($id)->delete();
-        session()->flash('success', 'Quantity removed!');
+        session()->flash('success', 'Item removed!');
         $this->loadCart();
     }
 
