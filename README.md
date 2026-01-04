@@ -35,7 +35,7 @@ The cart is **database-driven and user-based**, not session-based.
 ### 1. Clone Project
 ```
 git clone <repository-url>
-cd ecommerce-cart
+cd laravel-12-shopping-cart
 ```
 
 ### 2. Install Dependencies
